@@ -50,6 +50,6 @@ x86/
 # Profiler captures
 ProfilerCaptures/
 
-# Large texture files
-*.png
-*.hdr
+# Large texture files (over 50MB)
+Assets/Echo/Models/Weapone/AR-15/Texture/*.png
+Assets/Proxy Games/Stylized Nature Kit Lite/Misc/*.hdr
