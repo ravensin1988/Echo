@@ -1,0 +1,55 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Unity specific
+*.csproj
+*.sln
+*.slnx
+*.unityproj
+*.props
+*.userprefs
+*.unity
+
+# Visual Studio / VSCode
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+packages/
+
+# Gradle
+.gradle/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+._.*
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# JetBrains Rider
+.idea/
+*.sln.imod
+
+# Profiler captures
+ProfilerCaptures/
+
+# Large texture files
+*.png
+*.hdr

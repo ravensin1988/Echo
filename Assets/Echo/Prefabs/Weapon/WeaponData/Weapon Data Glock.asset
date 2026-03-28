@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7997756e02cb6d94e9684e7cd252bc31, type: 3}
+  m_Name: Weapon Data Glock
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponSO
+  fireEffectKey: muzzle_flash
+  defaultHitEffect: {fileID: 1768119480331981103, guid: 268d89894e982b34588925afd054fc14, type: 3}
+  woodHitEffect: {fileID: 7421373520351947896, guid: 3f01bb93d1f6a0b47a0689753d03ed69, type: 3}
+  concreteHitEffect: {fileID: 2293644917171210875, guid: 9e0bc870a4b0db0469a18084bce47df0, type: 3}
+  metalHitEffect: {fileID: 2295861303656978868, guid: 6bf2daabb7266d7499a0b0be7d55ae60, type: 3}
+  waterHitEffect: {fileID: 8822926889909647390, guid: 32b8d8daafc30b548b1e45146fba26d9, type: 3}
+  isAutomatic: 0
+  bulletMode: 0
+  weaponName: AK-47
+  fireRate: 10
+  magazineSize: 999999999
+  totalAmmo: 90
+  reloadTime: 2
+  maxDistance: 100
+  damageFalloffStart: 20
+  damageFalloffEnd: 50
+  minDamagePercent: 0.1
+  bulletPrefab: {fileID: 6651238588318836005, guid: 8e9a0b7f7caa4ab4fbbc77bc72ca878d, type: 3}
+  bulletSpeed: 300
+  damage: 10
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 133200
+  cameraShakeMagnitude: 0.01
+  cameraShakeDuration: 1
+  recoilVertical: 0.1
+  recoilVerticalRandom: 0.5
+  recoilHorizontal: 0.01
+  recoilHorizontalRandom: 0.2
+  recoilRecoverySpeed: 0
+  idleSpread: 0.06
+  walkingSpread: 0.13
+  runningSpread: 0
+  jumpingSpread: 0
+  crouchingSpread: 0
+  spreadPerShot: 0.02
+  spreadRecovery: 6.9
+  allowShootingWhileRunning: 1
+  allowShootingWhileJumping: 1
+  pickupPrefab: {fileID: 476718697684527288, guid: d2173cf61eff5fa48b04d94ac40c32f2, type: 3}
